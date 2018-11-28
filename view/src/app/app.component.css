@@ -1,0 +1,51 @@
+div{
+    border-radius: 4px;
+}
+
+footer{
+    border-radius: 4px;
+}
+
+#header{
+    /* content: "HK !!!!" */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* height: 108px */
+}
+div:nth-child(2){
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+div:nth-child(3){
+    background-color: yellowgreen;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+div:nth-child(4){
+    background-color: yellowgreen;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+div:nth-child(5){
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+footer{
+    display: grid;
+    background-color: steelblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    justify-content: center;
+}
